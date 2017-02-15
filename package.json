@@ -1,0 +1,27 @@
+{
+  "name": "linear16",
+  "version": "1.0.0",
+  "description": "Converts an audio file to LINEAR16 Google-speech compatible file.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://git@github.com:bouiboui/linear16.git"
+  },
+  "keywords": [
+    "linear16",
+    "audio",
+    "m4a",
+    "wav",
+    "ffmpeg",
+    "google",
+    "speech",
+    "convert",
+    "pcm"
+  ],
+  "author": "bouiboui",
+  "license": "Unlicense",
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.0",
+    "mime": "^1.3.4"
+  }
+}
