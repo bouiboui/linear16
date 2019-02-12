@@ -24,8 +24,8 @@
   "author": "bouiboui",
   "license": "Unlicense",
   "dependencies": {
-    "fluent-ffmpeg": "^2.1.0",
     "ffmpeg-static": "2.4.0",
+    "fluent-ffmpeg": "^2.1.0",
     "mime": "^1.3.4"
   },
   "devDependencies": {
