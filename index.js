@@ -1,6 +1,7 @@
 'use strict';
 
 const ffmpeg = require('fluent-ffmpeg');
+const ffmpeg_static = require('ffmpeg-static');
 const mime = require('mime');
 const fs = require('fs');
 
@@ -14,6 +15,7 @@ module.exports = (filePathIn, filePathOut) => new Promise((resolve, reject) => {
     if (mime.lookup(filePathIn).indexOf('audio') > -1) {
         try {
             ffmpeg()
+                .setFfmpegPath(ffmpeg_static.path) 
                 .input(filePathIn)
                 .outputOptions([
                     '-f s16le',
