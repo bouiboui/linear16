@@ -12,7 +12,7 @@ module.exports = (filePathIn, filePathOut) => new Promise((resolve, reject) => {
     if (!fs.existsSync(filePathIn)) {
         throw new Error('Input file must exist.');
     }
-    if (mime.lookup(filePathIn).indexOf('audio') > -1) {
+    if (mime.getType(filePathIn).indexOf('audio') > -1) {
         try {
             ffmpeg()
                 .setFfmpegPath(ffmpeg_static.path) 
