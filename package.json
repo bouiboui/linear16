@@ -1,6 +1,6 @@
 {
   "name": "linear16",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Converts an audio file to LINEAR16 Google-speech compatible file.",
   "main": "index.js",
   "scripts": {
