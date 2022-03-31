@@ -21,12 +21,12 @@ describe('linear16', () => {
     });
     it('should work normally', async () => {
         const outFile = await linear16('./test/test.m4a', './test/test.wav');
-        assert.deepEqual(true, fs.existsSync(outFile));
+        assert.deepStrictEqual(true, fs.existsSync(outFile));
         fs.unlinkSync(outFile);
     });
     it('should accept object-like parameters', async () => {
         const outFile = await linear16({inPath: './test/test.m4a', outPath: './test/test.wav'});
-        assert.deepEqual(true, fs.existsSync(outFile));
+        assert.deepStrictEqual(true, fs.existsSync(outFile));
         fs.unlinkSync(outFile);
     });
 });
