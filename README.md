@@ -1,3 +1,5 @@
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fbouiboui%2Flinear16.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fbouiboui%2Flinear16?ref=badge_shield)
+
 **Converts an audio file to LINEAR16 Google-speech compatible file.**
 
 This project has only been tested with m4a but should be compatible with all supported audio formats supported by ffmpeg.
@@ -54,3 +56,7 @@ linear16('./input.m4a', './output.wav')
 
 ```
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fbouiboui%2Flinear16.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fbouiboui%2Flinear16?ref=badge_large)
